@@ -58,3 +58,8 @@ text(x = dwellings[locs,2],
 title(main="A Person's path between Homes")
 
 ```
+
+
+## Output
+
+![](./Exercise1/plot.png)
