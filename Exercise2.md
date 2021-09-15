@@ -1,6 +1,8 @@
 # Exercise 2 -- Spacial Population of Description of Georgia
 
 ## Plot Georgia's subdivisions
+Data downloaded from GADM
+
 ```R
 library(tidyverse)
 library(sf)
@@ -54,4 +56,12 @@ ggplot() +
                size = 0.7,
                color = "black")
 ```
+
+![](./Exercise2/Georgia0.png)
+
+
+### Stretch Goal 1
+
+
+
 
