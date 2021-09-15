@@ -61,7 +61,9 @@ ggplot() +
 
 ![](./Exercise2/Georgia1.png)
 
+
 ### Stretch Goal 1
+Select shapefiles from HDX instead of GADM
 
 ```R
 int_alt <- read_sf('geo_adm_geostat_20191018_shp/geo_admbnda_adm0_geostat_20191018.shp')
@@ -97,6 +99,7 @@ ggplot() +
 
 
 ### Stretch Goal 2
+plot the geometries and labels for both the first and second level administrative subdivisions of Imereti, Georgia.
 
 ```R
 ime_sf <- adm1 %>%
@@ -125,6 +128,7 @@ adm2 %>%
 
 
 ### Stretch Goal 3
+Produce detailed maps of more densely populated areas
 
 ```R
 plot1 <- ggplot() +
