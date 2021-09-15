@@ -55,4 +55,3 @@ ggplot() +
                color = "black")
 ```
 
-
